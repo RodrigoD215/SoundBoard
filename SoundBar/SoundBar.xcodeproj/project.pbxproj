@@ -13,6 +13,7 @@
 		48BC6214227B77BD0052EFDB /* SoundBar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48BC6212227B77BD0052EFDB /* SoundBar.xcdatamodeld */; };
 		48BC6216227B77BE0052EFDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48BC6215227B77BE0052EFDB /* Assets.xcassets */; };
 		48BC6219227B77BE0052EFDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48BC6217227B77BE0052EFDB /* LaunchScreen.storyboard */; };
+		48BC6221227B7E160052EFDB /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BC6220227B7E160052EFDB /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		48BC6215227B77BE0052EFDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48BC6218227B77BE0052EFDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48BC621A227B77BE0052EFDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48BC6220227B7E160052EFDB /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				48BC620B227B77BD0052EFDB /* AppDelegate.swift */,
 				48BC620D227B77BD0052EFDB /* ViewController.swift */,
 				48BC620F227B77BD0052EFDB /* Main.storyboard */,
+				48BC6220227B7E160052EFDB /* SoundViewController.swift */,
 				48BC6215227B77BE0052EFDB /* Assets.xcassets */,
 				48BC6217227B77BE0052EFDB /* LaunchScreen.storyboard */,
 				48BC621A227B77BE0052EFDB /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48BC6221227B7E160052EFDB /* SoundViewController.swift in Sources */,
 				48BC620E227B77BD0052EFDB /* ViewController.swift in Sources */,
 				48BC620C227B77BD0052EFDB /* AppDelegate.swift in Sources */,
 				48BC6214227B77BD0052EFDB /* SoundBar.xcdatamodeld in Sources */,
@@ -287,7 +291,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KYAHKPUVG;
 				INFOPLIST_FILE = SoundBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +310,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KYAHKPUVG;
 				INFOPLIST_FILE = SoundBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
